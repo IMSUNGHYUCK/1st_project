@@ -10,6 +10,7 @@ while restart_game == 'y':
  cont = 0
  aaa = 0000
 
+
  while True:
   input_num = int(input('숫자를 입력하세요'))
   if not 1 <= input_num <= 100:
