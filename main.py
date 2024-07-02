@@ -32,3 +32,4 @@ while restart_game == 'y':
  restart_game = input('게임을 다시 시작하시겠습니까?(y/n): ').lower()
 
 print(f'게임종료. 당신의 최소 시도 횟수는 {min_cont}입니다.')
+11111
