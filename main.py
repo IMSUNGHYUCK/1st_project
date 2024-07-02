@@ -8,6 +8,7 @@ while restart_game == 'y':
  random_number = random.randint(1, 100)
 
  cont = 0
+ a = 0000
 
 
 
