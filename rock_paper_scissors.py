@@ -38,11 +38,8 @@ while restart_game == 'y':
        print(f'졌습니다.컴퓨터:{com} 사용자:{user}.')
        cont_lose += 1
        break
-       if min_cont == 0 or cont < min_cont:
-          min_cont = cont
-          print(f'{cont_win}승 {cont_lose}패 {cont} 무 입니다 ')
 
-
+ print(f'{cont_win}승 {cont_lose}패 {cont} 무 입니다 ')
  restart_game = input('게임을 다시 시작하시겠습니까?(y/n): ').lower()
 
 print(f'{cont_win}승 {cont_lose}패 {cont} 무 입니다.')
